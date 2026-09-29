@@ -12,6 +12,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://siteforsalahittech.com"),
   title: `${site.name} — ${site.tagline}`,
   description: site.shortDescription,
 };
